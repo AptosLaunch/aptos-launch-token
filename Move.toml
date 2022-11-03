@@ -1,0 +1,9 @@
+[package]
+name = 'AptosLaunchToken'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+aptos_launch_token="0xc7f8ddeb07ea5829a8163fc5664f0a801956aa68ce779c07abd6384c34694ce8"
